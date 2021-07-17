@@ -1,0 +1,104 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#container{
+
+    display:flex;
+    justify-content: space-between;
+    padding:1em;
+    box-sizing: border-box;
+
+}
+#container h3{
+    margin-top:0.5em;
+}
+#container h3::first-letter{
+    font-size:xx-large;
+    color:#1792d2;
+    margin-left:3em;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+margin:0.5em;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+nav ul li a:hover{
+    border-bottom: 3.5px solid royalblue;
+
+}
+#transfer{
+    display:flex;
+    justify-content:space-between;
+}
+#transferone{
+    background-color: #f8f8f8;
+    width:30em;
+    padding:2em 1.5em;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:1px solid white;
+    box-sizing: border-box;
+    box-shadow:3px 3px black;
+    text-align: center;
+}
+#amount{
+    margin-right:10em;
+}
+input{
+    margin-left:0.3em;
+    padding:0.5em;
+    border:1px solid black;
+    border-radius:5px;
+}
+#submit{
+    color:white;
+    padding:0.5em 1em;
+    background-color:royalblue;
+}
+#from{
+    margin-left:1.2em;
+    margin-bottom:0;
+}
+#to{
+    margin-top:0;
+    margin-left:2.8em;
+}
+#submit{
+    margin-top:0;
+    margin:1em auto;
+}
+#details{
+    display:none;
+}
+
+
+#transfered{
+    
+    border-collapse:collapse;
+}
+#transfered td,#transfered th{
+    border:1px solid black;;
+    padding:1em;
+}
+#transfered th{
+    background-color:seagreen;
+    color:white;
+    text-align: left;
+}
+#transfered tr:nth-child(even){
+    background-color: #ddd;
+}
+#transferd tr:nth-child(odd){
+    background-color: #f8f8f8;
+}
+#transfered tr:hover{
+    background-color: #f2f2f2;
+}
