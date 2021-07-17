@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title> Banking system</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="transfer.css">
+ </head>
+ <body>
+     <div id="container">
+         <h3>Keepsafe Family Bank</h3>
+         <nav>
+             <ul>
+                 <li><a href="banking.html">Home</a></li> 
+                 <li><a href="">About Us</a></li> 
+                 <li><a href="customer.html">Customers</a></li> 
+                 <li><a href="transfer.html">Transfer Money</a></li> 
+                 <li><a href="transfer.html">Transactions</a></li> 
+            </ul>
+         </nav>
+     </div>
+     <table id="details">
+        <tr>
+            <th>Sl.No</th>
+            <th id="one">Name</th>
+            <th id="two">E-mail</th>
+            <th id="three">Current Balance</th>
+        </tr>
+        <tr>
+           <td>1</td>
+           <td>Harsha</td>
+           <td>harsha@gmail.com</td>
+           <td>10000</td>
+       </tr>
+       <tr>
+           <td>2</td>
+           <td>Tharun</td>
+           <td>tharun@gmail.com</td>
+           <td>20000</td>
+       </tr>
+       <tr>
+           <td>3</td>
+           <td>Cherry</td>
+           <td>cherry@gmail.com</td>
+           <td>30000</td>
+       </tr>
+       <tr>
+           <td>4</td>
+           <td>Vishal</td>
+           <td>vishal@gmail.com</td>
+           <td>40000</td>
+       </tr>
+       <tr>
+           <td>5</td>
+           <td>Srikanth</td>
+           <td>srikanth@gmail.com</td>
+           <td>50000</td>
+       </tr>
+       <tr>
+           <td>6</td>
+           <td>Subhani</td>
+           <td>subhani@gmail.com</td>
+           <td>60000</td>
+       </tr>
+       <tr>
+           <td>7</td>
+           <td>Harish</td>
+           <td>harish@gmail.com</td>
+           <td>70000</td>
+       </tr>
+       <tr>
+           <td>8</td>
+           <td>Siva</td>
+           <td>siva@gmail.com</td>
+           <td>80000</td>
+       </tr>
+       <tr>
+           <td>9</td>
+           <td>Gopal</td>
+           <td>gopal@gmail.com</td>
+           <td>90000</td>
+       </tr>
+       <tr>
+           <td>10</td>
+           <td>Rama Krishna</td>
+           <td>ramakrishna@gmail.com</td>
+           <td>100000</td>
+       </tr>
+</table>         
+     <div id="transfer">
+         <div id="transferone">
+        <div>
+            <label for="from">From:</label>
+            <input type="text" id="from" name="sendername" placeholder="sender" size="40em" onclick="color()">
+            <p id="demo"></p>
+            <br>
+            
+        </div>    
+         <div>   <label for="to">To:</label>
+            <input type="text" id="to" name="receviername" placeholder="receiver" size="40em" onclick="colorone()">
+            <p id="demoone"></p>
+            <br>
+         </div>  
+         <div>
+            <label for="amount">Amount:</label> 
+            <input type="number" min="0" id="amount" size="60em" onclick="colortwo()">
+            <p id="demotwo"></p>
+            <br>
+         </div>   
+            <input type="submit" id="submit" value="Send" onclick="transfer()">
+            </div>
+ <div id="transactions">
+      <table id="transfered">
+          <tr>
+              <th>Sl.no</th>
+              <th>Sender Name</th>
+              <th>Reciver Name</th>
+              <th>Amount Transfered</th>
+
+          </tr>
+          </table>
+ </div>
+ </div>         
+       
+    <script src="script.js">
+       
+    </script>
+         
+
+     </body>
+     </html>      
+           
