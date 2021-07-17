@@ -1,0 +1,166 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#container{
+
+    display:flex;
+    justify-content: space-between;
+    padding:1em;
+    box-sizing: border-box;
+
+}
+#container h3{
+    margin-top:0.5em;
+}
+#container h3::first-letter{
+    font-size:xx-large;
+    color:#1792d2;
+    margin-left:3em;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+margin:0.5em;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+nav ul li a:hover{
+    border-bottom: 3.5px solid red;
+
+}
+#main{
+    display:flex;
+    margin-top:1em;
+    background: linear-gradient(to bottom, #f8f8f8, white);
+    padding-top:2em;
+}
+#right{
+    width:50%;
+}
+#right img{
+    margin-top:1em;
+    margin-left:5em;
+    width:60%;
+    clip-path: circle();
+}
+#left{
+    width:50%;
+    margin-top:7em;
+    text-align: center;
+}
+#left h3{
+    font-size:3rem;
+    margin:0;
+}
+#left h3 span{
+    color:royalblue;
+}
+#left p{
+    margin:0;
+    color:royalblue;
+    margin-bottom:1em; 
+}
+#left p span{
+    color:black
+}
+#left a{
+
+    text-decoration: none;
+    color:white;
+    background-color: royalblue;
+    padding: 0.5em;
+    border:1px solid royalblue;
+    border-radius:5px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px black;
+
+}
+#mainone{
+    display:flex;
+    background: linear-gradient(to bottom, white,#f8f8f8);
+    padding-top:2em;
+}
+#leftone{
+    width:50%;
+}
+#leftone img{
+    margin-top:1em;
+    margin-left:5em;
+    width:70%;
+    clip-path: circle();
+
+}
+#rightone{
+    margin-top:4em;
+    width:50%;
+    text-align: center;
+
+}
+#rightone span{
+    color:royalblue;
+    margin-bottom:3em;
+
+}
+#rightone a{
+    text-decoration: none;
+    color:white;
+    background-color: royalblue;
+    padding: 0.5em;
+    border:1px solid royalblue;
+    border-radius:5px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px black;
+}
+#footer{
+    display:flex;
+    justify-content:space-around;
+    padding:1em;
+}
+#follow{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#follow h4{
+   margin-left:3em;
+    text-align:center;
+     margin-bottom:0;
+}
+#follow ul{
+    margin:0;
+    display:flex;
+    list-style: none;
+
+}
+#follow ul li{
+    margin:0.5em;
+
+}
+#follow ul li a{
+ color:black;
+}
+#follow ul li a:hover{
+    color:red;
+}
+#contact{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+#contact img{
+    width:5%;
+    color:black;
+    clip-path: circle();
+    margin-right:1em;
+}
+
+
+
+
